@@ -1,0 +1,43 @@
+program chess
+show [brook1.jpg] at (0,0) named brook1 
+show [bknight1.jpg] at (55,0) named bknight1 
+show [bbishop1.jpg] at (110,0) named bbishop1 
+show [bqueen.jpg] at (165,0) named bqueen 
+show [bking.jpg] at (220,0) named bking 
+show [bbishop2.jpg] at (275,0) named bbishop2 
+show [bknight2.jpg] at (330,0) named bknight2 
+show [brook2.jpg] at (385,0) named brook2
+show [bpawn1.jpg] at (0,55) named bpawn0 
+show [bpawn2.jpg] at (55,55) named bpawn1 
+show [bpawn1.jpg] at (110,55) named bpawn2 
+show [bpawn2.jpg] at (165,55) named bpawn3 
+show [bpawn1.jpg] at (220,55)  named bpawn4 
+show [bpawn2.jpg] at (275,55)  named bpawn5 
+show [bpawn1.jpg] at (330,55)  named bpawn6 
+show [bpawn2.jpg] at (385,55)  named bpawn7 
+show [wrook1.jpg] at (0,385) named wrook1 
+show [wknight1.jpg] at (55,385) named wknight1 
+show [wbishop1.jpg] at (110,385) named wbishop1 
+show [wqueen.jpg] at (165,385) named wqueen 
+show [wking.jpg] at (220,385) named wking 
+show [wbishop2.jpg] at (275,385) named wbishop2 
+show [wknight2.jpg] at (330,385) named wknight2 
+show [wrook2.jpg] at (385,385) named wrook2 
+show [wpawn1.jpg] at (0,330) named wpawn0 
+show [wpawn2.jpg] at (55,330) named wpawn1 
+show [wpawn1.jpg] at (110,330) named wpawn2 
+show [wpawn2.jpg] at (165,330) named wpawn3 
+show [wpawn1.jpg] at (220,330) named wpawn4 
+show [wpawn2.jpg] at (275,330) named wpawn5 
+show [wpawn1.jpg] at (330,330) named wpawn6 
+show [wpawn2.jpg] at (385,330) named wpawn7 
+show [440440.jpg] at (0,0) 
+wpawn4 move to (220,220) after 00:02 with speed 60 
+bpawn3 move to (165,165) after 00:04 with speed 20 
+wpawn4 move to (165,165) after 00:05 with speed 20 
+bqueen move to (165,165) after 00:08 with speed 20 
+wbishop2 move to (165,275) after 00:10 with speed 30 
+bqueen move to (330,330) after 00:12 with speed 30 
+bpawn3 disappear after 00:06 
+wpawn4 disappear after 00:09 
+wpawn6 disappear after 00:13 

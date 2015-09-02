@@ -1,0 +1,8 @@
+show 'panda2.jpg',100,100,'p1','now',0,0
+moveto 'p1',1000,200,'now',0,0,0
+alter 'p1',$hit,'RIGHT'
+moveto 'p1',200,800,'now',0,0,0
+endofalter 'p1'
+alter 'p1',$hit,'DOWN'
+moveto 'p1',200,200,'now',0,0,0
+endofalter 'p1'

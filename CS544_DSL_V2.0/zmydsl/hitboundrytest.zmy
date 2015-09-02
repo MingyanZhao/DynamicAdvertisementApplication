@@ -1,0 +1,5 @@
+program hitboundrytest
+show [panda2.jpg] at (100,100) named p1 
+p1 move to (1000,200) 
+if p1 hit right, move to (200,800) 
+if p1 hit down, move to (200,200) 

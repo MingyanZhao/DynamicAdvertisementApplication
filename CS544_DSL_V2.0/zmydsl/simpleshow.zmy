@@ -1,0 +1,2 @@
+program simpleshow
+show [background.jpg] at (0,0)

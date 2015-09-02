@@ -1,0 +1,15 @@
+show 'panda2.jpg',100,100,'p1','now',0,0
+show 'monkey1.jpg',800,800,'p2','now',0,0
+show 'rabit.jpg',400,400,'p3','now',0,0
+moveto 'p1',800,300,'now',0,0,0
+moveto 'p2',300,100,'now',0,0,0
+patrol 'p2',500,100,'now',0,0,0
+moveto 'p3',300,100,'now',0,0,0
+patrol 'p3',200,150,'now',0,0,0
+alter 'p1',$hit,'ANYBOUNDRY'
+mirrorreflect 'p1','now',0,0
+endofalter 'p1'
+alter 'p2',$hit,'p3'
+moveto 'p2',400,220,'now',0,0,0
+jump 'p2',100,100,'now',0,0
+endofalter 'p2'

@@ -1,0 +1,9 @@
+program mirrortest
+show [panda2.jpg] at (100,100) named p1 
+show [monkey1.jpg] at (800,800) named p2 
+show [rabit.jpg] at (400,400) named p3 
+p1 move to (800,300) 
+p2 move to (300,100) then patrol between (500,100) 
+p3 move to (300,100) then patrol between (200,150) 
+if p1 hit boundry, mirror reflection 
+if p2 hit p3, move to (400,220) then jump to (100,100) 
